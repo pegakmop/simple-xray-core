@@ -260,8 +260,8 @@ echo ""
 echo "Ссылка для подключения":
 echo "$link"
 echo ""
-echo "QR-код:"
-echo ${link} | qrencode -t ansiutf8
+#echo "QR-код:"
+#echo ${link} | qrencode -t ansiutf8
 EOF
 chmod +x /usr/local/bin/sharelink
 
