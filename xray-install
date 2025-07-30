@@ -44,7 +44,7 @@ cat << EOF > /usr/local/etc/xray/config.json
             {
                 "type": "field",
                 "ip": [
-                    "geoip:cn"
+                    "geoip:ru"
                 ],
                 "outboundTag": "block"
             }
@@ -70,11 +70,10 @@ cat << EOF > /usr/local/etc/xray/config.json
                 "security": "reality",
                 "realitySettings": {
                     "show": false,
-                    "dest": "github.com:443",
+                    "dest": "web.telegram.org:443",
                     "xver": 0,
                     "serverNames": [
-                        "github.com",
-                        "www.github.com"
+                        "web.telegram.org"
                     ],
                     "privateKey": "$privatkey",
                     "minClientVer": "",
